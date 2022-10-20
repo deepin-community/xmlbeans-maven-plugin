@@ -1,0 +1,28 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: Maven XMLBeans Plugin
+Upstream-Contact: David Jencks <david_jencks@yahoo.com> as Maintainer
+             Brett Porter as Port of Original Code
+             David J. M. Karlsen <david@codehaus.org> as Maintainer
+             Terence Haddock
+             Nathan Sowatskey <protected>
+             Dan Allen <protected>
+             Brian Bonner <protected>
+             Piotr Burdylo <protected>
+             Mike Perham <protected>
+             Martin Desruisseaux <protected>
+             Rafal Rusin <protected>
+             Christian Domsch <protected>
+             Anita Kulshreshtha <protected>
+Source: http://mojo.codehaus.org/xmlbeans-maven-plugin/
+
+Files: *
+Copyright: Copyright 2004-2009 The Apache Software Foundation
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2011, Damien Raude-Morvan <drazzib@debian.org>
+License: Apache-2.0
+
+License: Apache-2.0
+  On Debian GNU/Linux system you can find the complete text of the
+  Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'

@@ -1,0 +1,31 @@
+xmlbeans-maven-plugin (2.3.3-4) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on libmaven3-core-java instead of libmaven2-core-java
+  * Removed the *-java-doc package
+  * Build with the DH sequencer instead of CDBS
+  * Standards-Version updated to 4.0.0
+  * Switch to debhelper level 10
+  * Use secure Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sun, 30 Jul 2017 23:51:10 +0200
+
+xmlbeans-maven-plugin (2.3.3-3) unstable; urgency=low
+
+  * Rebuild to get a Depends on libxml-commons-resolver1.1-java.
+    - Drop d/patches/xml_resolver.diff since it provide a Maven artifact now.
+  * Add B-D on libmaven-plugin-tools-java.
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Wed, 31 Aug 2011 22:22:26 +0200
+
+xmlbeans-maven-plugin (2.3.3-2) unstable; urgency=low
+
+  * d/control: Fix Vcs-* fields to use Git repository.
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Tue, 28 Jun 2011 19:55:22 +0200
+
+xmlbeans-maven-plugin (2.3.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #631701).
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Sun, 26 Jun 2011 14:45:55 +0200
